@@ -26,25 +26,58 @@
     <header>
       <div class="container">
         <h1>Find your film</h1>
-        <h3><a href="#" class="watchlist-link">My Watchlist</a></h3>
+        <h3>
+          <a href="watchlist.html" class="watchlist-link">My Watchlist</a>
+        </h3>
       </div>
     </header>
     <section class="section-one">
       <div class="input-container">
-        <form>
-          <i class="fa-brands fa-searchengin icon"></i>
-          <input
-            type="text"
-            class="input"
-            placeholder="      Search for a movie"
-          />
+        <i class="fa-brands fa-searchengin icon"></i>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search for a movie"
+          id="input"
+        />
 
-          <button type="submit" class="submitBtn">Search</button>
-        </form>
+        <button class="submitBtn" id="searchBtn">Search</button>
       </div>
     </section>
     <section class="section-two">
-      <div class="section-two-container"></div>
+      <div class="section-two-container">
+        <!-- <div class="exploring-container">
+          <img src="images/Icon.png" class="icon-img" />
+          <h4 class="exploring-text">Start Exploring</h4>
+        </div> -->
+        <div class="movie-info-container">
+          <div class="movie-img-cont">
+            <img src="images/maze_runner.jpg" class="movie-img" />
+          </div>
+          <div class="movie-info-box">
+            <div class="child-one">
+              <h4>Blade Runner 2049</h4>
+              <img src="images/StarIcon.png" class="star-icon" />
+              <h6>8.0</h6>
+            </div>
+            <div class="child-two">
+              <p>117 min</p>
+              <p>Action, Drama, Sci-fi</p>
+              <div class="add-icon-container">
+                <img src="images/plusicon.png" />
+                <p>Watchlist</p>
+              </div>
+            </div>
+            <div class="child-three">
+              <p>
+                A blade runner must pursue and terminate four replicants who
+                stole a ship in space, and have returned to Earth to find their
+                creator.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="index.js"></script>
   </body>
